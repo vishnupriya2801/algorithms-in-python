@@ -1,12 +1,13 @@
 
 #insertion sort
 ''' check 3rd place with 2nd exchange if larger then check 2nd with 1st and repeat for 4
-best case- theta(n)
-worst case-theta(n squared)
-averagec- theta(n sq)
-stable-inplace-online
+best case time- theta(n)
+worst case time-theta(n squared)
+average time- theta(n sq)
 like selection but performs better as the list is sorted as we go butrequires more writes than selection
 great for small or mostly-sorted arrays
+
+stable-inplace-online-internal memory-non recursive
 '''
 
 def insertionsort(a):
